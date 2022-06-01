@@ -1,0 +1,95 @@
+body{background-color: rgba(18, 59, 44, 0.879);
+    font-family:cooper;
+}
+
+p{
+    font-size: 36px;
+}
+
+h5{
+    font-size: 60px;
+    text-decoration: underline;
+}
+
+li{
+    font-size: 48px;
+}
+hr{
+    background-color: white; 
+    color: white;
+    height: 2px;
+
+    border: 0;
+}
+
+.briefs{
+    font-size: 50px;
+}   
+#logo{
+    text-decoration: none;
+    color: rgba(237, 226, 73, 0.931);
+    text-shadow: 2px 2px 2px black;
+    font-size: 100px;
+    position: relative;
+    margin-bottom: 200px;
+}
+
+
+
+#buttonbox{
+    float: right;
+    overflow: hidden;
+    margin: 3px;
+}
+.mButton{
+    text-decoration: none;
+    color: rgba(242, 181, 181, 0.678);
+   text-shadow: 2px 2px 2px black;
+    position: relative;
+    font-size: 40px;
+    
+    
+}
+ .mButton:hover{color:red;}
+
+img{
+    width: 250px;
+    height: 300px;
+}
+.section{
+    margin-left: 400px;
+    color: rgb(138, 135, 112);
+    width: 1100px;
+    position: relative;
+    top: 50px;
+    overflow:hidden;
+
+}
+
+@media screen and (max-width : 767px) {
+    body{
+        width: auto;
+        
+    }
+    
+    #logo{
+        font-size: 50px;
+        margin-bottom: 30px;
+    }
+
+    .mButton{
+        font-size: 20px;
+    }
+    .section{
+        width: 600px;
+        margin-left: 0px;
+    }
+
+    .briefs{
+        font-size: 36px;
+    }
+
+    h5{
+        size: 32px;
+    }
+}
